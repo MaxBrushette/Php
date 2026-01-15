@@ -1,4 +1,3 @@
-//1. Set Up & Start 
 <?php
 declare(strict_types=1);
 //3. Variables, Data Tyoes, Concatenation, Conditional Statements & Echo
