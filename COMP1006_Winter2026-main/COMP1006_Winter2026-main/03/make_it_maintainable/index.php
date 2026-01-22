@@ -1,4 +1,4 @@
-<?php require "connect.php" ?>
+<?php require "connect.php" /*Connecting is required.*/ ?> 
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,7 +7,7 @@
     <body>
 
         <h1>Welcome</h1>
-        <?php require "nav.php"; ?>
-        <?php include "footer.php"; ?>
+        <?php require "nav.php"; /*I think being able to navigate the website should be required. */?>
+        <?php include "footer.php"; /*I don't think the footer is /that/ important to the website, but I could be wrong. */ ?>
     </body>
 </html>

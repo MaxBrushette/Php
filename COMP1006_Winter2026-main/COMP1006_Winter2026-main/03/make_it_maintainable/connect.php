@@ -1,4 +1,4 @@
-<?php
+<?php /*The connecting.php. I didn't know whether or not we needed this but it was nice to include since I ended up having an error during development. */
 
 $host = "localhost";
 $db = "Week3PHP";
@@ -14,4 +14,5 @@ try{
 }
 catch(PDOException $e){
     die("Not Connected :(" . $e->getMessage());
+    //So I get the message on what went wrong I think ^
 }
