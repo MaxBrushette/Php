@@ -1,5 +1,4 @@
-<?php require "index.php"; ?>
-
+<?php require "connect.php" ?>
 <!DOCTYPE html>
 <html>
     <head>

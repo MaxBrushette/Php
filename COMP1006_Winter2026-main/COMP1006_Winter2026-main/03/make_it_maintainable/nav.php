@@ -1,5 +1,4 @@
-<?php
-$items = ["Home", "About", "Contact"]; ?>
+<?php $items = ["Home", "About", "Contact"]; ?>
 
 <ul>
     <?php foreach ($items as $item): ?>
