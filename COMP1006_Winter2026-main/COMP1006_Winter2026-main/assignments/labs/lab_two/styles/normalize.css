@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/*This normalizes the margins, font sizes, etc*/
+html {
+    font-family:Arial;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea{
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+/*Makes all of the buttons look the same. */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"]{
+    -webkit-appearance: button;
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding:0;
+    white-space: normal;
+}
+
+fieldset{
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-weight:500;
+}
