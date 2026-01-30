@@ -48,6 +48,7 @@ if($customerMessage===null||$customerMessage===''){
 exit;
 }
 ?>
+<!-- Informs the user of all of their entered information. -->
 </main>
 <h1>Thank you!</h1>
 <p>Your contact information has been sent to our service team.</p>

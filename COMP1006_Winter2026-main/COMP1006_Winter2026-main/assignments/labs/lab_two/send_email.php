@@ -1,5 +1,5 @@
 <?php
-
+//So it sends an email with the information to the email below.
 $to = "bitumi@gmail.com";
 $subject = "Customer Information";
 
